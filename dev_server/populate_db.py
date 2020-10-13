@@ -5,10 +5,7 @@ from connect_mongo import connect
 
 
 def populate(lang, lib):
-    """
-    Populate database with backend to frontend schema
-    """
-
+    """Populate database with backend to frontend schema."""
     db = connect()
     collection = db['schema']
     with open('schema' + os.sep + 'backend_2_frontend_schema.json', 'r') as f:
