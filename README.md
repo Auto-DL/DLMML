@@ -49,6 +49,24 @@ This ideally would be done using our [FrontEnd](https://github.com/Auto-DL/Gener
     ```
 6. Make the post request.
 
+<details>
+    <summary><strong>Output  of successful post request</strong></summary>
+    ![slop6](https://user-images.githubusercontent.com/50476758/95983571-78f54300-0e3f-11eb-8836-5bb94f224a6b.PNG)
+    
+    To get this output follow the following steps:
+    
+    '''
+    - import the collections from "example_json" folder into postman
+    
+    ![slop-7](https://user-images.githubusercontent.com/50476758/95985214-f457f400-0e41-11eb-8e4e-e15472ee4366.PNG)
+    
+    - Run Generator (by following steps written in it's README)
+    
+    - Send the POST Request
+    
+    '''
+</details>
+
 ***Note:*** For an example post request and to know how the data is expected in the `./data` directory please head on to the [User Guide](https://github.com/Auto-DL/DLMML/blob/master/docs/userguide.md) 
 
 #### What if I want to go for method 3:
