@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "a2ac05bc-d3f3-427a-a201-0d26431bf16d",
+		"name": "AutoDL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "v1/generate/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\t\"Layer-1-Conv2D-filters\": 32,\r\n\t\"Layer-1-Conv2D-kernel_size\": [3, 3],\r\n\t\"Layer-1-Conv2D-activation\": \"relu\",\r\n\t\"Layer-1-Conv2D-padding\": \"same\",\r\n\t\"Layer-1-Conv2D-input_shape\": [200, 200, 3],\r\n\r\n\t\"Layer-2-MaxPooling2D-pool_size\": [2, 2],\r\n\r\n\t\"Layer-3-Flatten-\": {},\r\n\r\n\t\"Layer-4-Dense-units\": 128,\r\n\t\"Layer-4-Dense-activation\": \"relu\",\r\n\t\"Layer-4-Dense-kernel_initializer\": \"he_uniform\",\r\n\r\n\t\"Layer-5-Dense-units\": 1,\r\n\t\"Layer-5-Dense-activation\": \"sigmoid\",\r\n\r\n\t\"dataset-type\": \"image\",\r\n\t\"dataset-path\": \"../DLMML/data/dogs_and_cats\",\r\n\r\n\t\"image-augment-rotation_range\": 40,\r\n\t\"image-augment-width_shift_range\": 0.2,\r\n\t\"image-augment-height_shift_range\": 0.2,\r\n\t\"image-augment-horizontal_flip\": \"True\",\r\n\t\"image-augment-rescale\": 0.0039215,\r\n\r\n\t\"image-params-target_size\": [200, 200],\r\n\t\"image-params-batch_size\": 64,\r\n\t\"image-params-class_mode\": \"binary\",\r\n\r\n\t\"optimizer\": \"sgd\",\r\n\t\"loss\": \"binary_crossentropy\",\r\n\t\"metrics\": [\r\n\t\t\"accuracy\"\r\n\t],\r\n\t\"epochs\": 5,\r\n\r\n\t\"verbose\": 1,\r\n\t\"plot\": \"True\",\r\n\t\"save_plots\": \"True\",\r\n    \"lib\": \"keras\",\r\n    \"lang\": \"python\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/v1/generate/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"v1",
+						"generate",
+						""
+					]
+				},
+				"description": "DLMML "
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
