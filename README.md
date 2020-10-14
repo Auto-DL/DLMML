@@ -50,20 +50,13 @@ This ideally would be done using our [FrontEnd](https://github.com/Auto-DL/Gener
 6. Make the post request.
 
 <details>
-    <summary><strong>Output  of successful post request</strong></summary>
-    
-    ![Output of successful post request](Output of successful post request.PNG)
-    
-    To get this output follow the following steps:
-   
-    - import the collections from "example_json" folder into postman
-    
-    ![Postman Screen](Postman Screen.PNG)
-    
-    - Run Generator (by following steps written in it's README)
-    
-    - Send the POST Request
-    
+<summary><strong>Output  of successful post request</strong></summary>
+![Output of successful post request](Output of successful post request.PNG)
+To get this output follow the following steps:
+- import the collections from "example_json" folder into postman
+![Postman Screen](Postman Screen.PNG)
+- Run Generator (by following steps written in it's README)
+- Send the POST Request
 </details>
 
 ***Note:*** For an example post request and to know how the data is expected in the `./data` directory please head on to the [User Guide](https://github.com/Auto-DL/DLMML/blob/master/docs/userguide.md) 
