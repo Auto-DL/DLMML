@@ -52,14 +52,14 @@ This ideally would be done using our [FrontEnd](https://github.com/Auto-DL/Gener
 <details>
 <summary><strong>Output  of successful post request</strong></summary>
     
-<img src="/Output of successful post request.PNG"/>
+<img src="/Output_post_request.PNG"/>
 
 
 To get this output follow the following steps:
 
 - import the collections from "example_json" folder into postman
 
-<img src="/Postman Screen.PNG"/>
+<img src="/Postman_Screen.PNG"/>
 
 - Run Generator (by following steps written in it's README)
 - Send the POST Request
