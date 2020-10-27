@@ -7,16 +7,14 @@ from .symbol_table import symbol_table
 
 
 def parse(input_dict):
-    """
-    Parser which adds layers (mostly)
-    """
+    """Parser which adds layers (mostly)."""
     try:
         # init_sequential()
         layers = input_dict['layers']
         generated_code = ''
 
-        #TODO: Take care of indentation and stuff if making functions
-        #TODO: Ordering in dict (work around -> ordered_dict)
+        # TODO: Take care of indentation and stuff if making functions
+        # TODO: Ordering in dict (work around -> ordered_dict)
 
         for layer in layers:
             name = layer.get('name', None)
