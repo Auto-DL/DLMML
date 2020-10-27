@@ -1,13 +1,5 @@
-import json
-import os
-import sys
-from pprint import pprint
-
-
 def init_sequential():
-    """
-    initializes the model
-    """
+    """Initialize the model."""
     try:
         return \
 '\nmodel = Sequential()\n'
