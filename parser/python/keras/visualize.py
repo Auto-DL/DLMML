@@ -5,6 +5,7 @@ from pprint import pprint
 
 
 def add_plots_and_summary(fname="test"):
+    """Plot the curve to evaluate model performance."""
     return \
 """
 def summarize_diagnostics(history, save_plots):
@@ -29,6 +30,7 @@ def summarize_diagnostics(history, save_plots):
 
 
 def plot_and_summarize_model(inputs):
+    """Evaluate model performance."""
     if eval(inputs.get('plot', False)):
         return \
 """
