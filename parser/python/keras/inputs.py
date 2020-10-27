@@ -14,7 +14,7 @@ def image_input(inputs):
     base = inputs['dataset']['path']
     test_dir = os.path.join(base, 'test')
     train_dir = os.path.join(base, 'train')
-    
+
     paths = \
 """
 
@@ -36,3 +36,4 @@ test_generator = test_datagen.flow_from_directory(test_dir, **kwargs)
 """.format(inputs['image']['augment'], inputs['image']['params'])
 
     return paths+generators
+
