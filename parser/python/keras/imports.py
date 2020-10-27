@@ -5,9 +5,7 @@ from pprint import pprint
 
 
 def get_imports():
-    """
-    Imports the needed modules.
-    """
+    """Import the needed modules."""
     try:
         return \
         """
@@ -28,3 +26,4 @@ from keras.preprocessing.image import ImageDataGenerator
 """
     except Exception as e:
         print(e)
+
