@@ -5,7 +5,6 @@ symbol_table = {
     'Dense': 'model.add(Dense())',
     'Flatten': 'model.add(Flatten())',
     'Dropout': 'model.add(Dropout())',
-    'BaseRNN': 'model.add(BaseRNN())',
     'SimpleRNN': 'model.add(SimpleRNN())',
     'ZeroPadding2D': 'model.add(ZeroPadding2D())',
     'AveragePooling2D': 'model.add(AveragePooling2D())',

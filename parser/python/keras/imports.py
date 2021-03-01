@@ -28,7 +28,7 @@ from keras.layers import Conv2D
 from keras.layers import MaxPooling2D, ZeroPadding2D, AveragePooling2D
 from keras.layers import Dense
 from keras.layers import Flatten, Dropout
-from keras.layers import BaseRNN, SimpleRNN, LSTM
+from keras.layers import SimpleRNN, LSTM
 from keras.optimizers import SGD, RMSprop, Adam, Adagrad, Adadelta
 from keras.preprocessing.image import ImageDataGenerator
 """
