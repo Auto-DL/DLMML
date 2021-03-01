@@ -8,7 +8,7 @@
 [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Auto-DL/DLMML)](https://github.com/Auto-DL/DLMML/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Auto-DL/DLMML)](https://github.com/Auto-DL/DLMML/pulls?q=is%3Aopen+is%3Apr)
 [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Auto-DL/DLMML?color=green)](https://github.com/Auto-DL/DLMML/pulls?q=is%3Apr+is%3Aclosed)
-[![Slack](https://img.shields.io/badge/Join%20Our%20Community-Slack-blue)](https://join.slack.com/t/autodl/shared_invite/zt-k20kaagx-RFKtAR366~DLmxJFYJYdrA)
+[![Slack](https://img.shields.io/badge/Join%20Our%20Community-Slack-blue)](https://join.slack.com/t/autodl/shared_invite/zt-m6dxvsow-~dW4FTy3QDLAK~WYeg_3Ig)
 
 </center>
 
